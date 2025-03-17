@@ -2,10 +2,6 @@
 {
     public class Hotel
     {
-        public Hotel(string name, int stars, string address)
-        {
-            if(string.IsNullOrWhiteSpace(name)) throw new ArgumentNullException("name should not contain whitespace or null");
-        }
         public int HotelId { get; set; }
         public string Name { get; set; }
         public int Stars { get; set; }
