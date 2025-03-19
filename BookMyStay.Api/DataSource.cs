@@ -12,7 +12,7 @@ namespace BookMyStay.Api
         }
 
         #region Private Methods
-        private List<Hotel> GetAllHotels()
+        public List<Hotel> GetAllHotels()
         {
             return new List<Hotel>
             {
