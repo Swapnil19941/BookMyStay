@@ -11,6 +11,7 @@ namespace BookMyStay.Api.Controllers
     public class HotelsController : Controller
     {
         #region Private Variables
+        //loggger get from di container no need to register in program.cd
         private ILogger<HotelsController> _logger;
         private ISingletonOperation _singletonOperation;
         private IScopedOperation _scopedOperation;
